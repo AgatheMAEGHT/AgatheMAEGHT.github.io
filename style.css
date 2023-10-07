@@ -1,0 +1,183 @@
+/* Page */
+@font-face {
+    font-family: "OpenSans";
+    src: url("font/OpenSans/OpenSans-VariableFont_wdth,wght.ttf") format("OpenType");
+}
+
+html {
+    background-color: rgb(46, 46, 46);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+
+    /* var */
+    --major-color: #f44336;
+    --second-color: #fde3e1;
+}
+
+body {
+    margin: 0%;
+    background-color: white;
+    width: 21cm;
+    height: 29.7cm;
+    display: flex;
+    font-family: "OpenSans";
+}
+
+/* Components */
+.separator {
+    border-top: 3px solid var(--major-color);
+    width: 85%;
+    margin-left: 0px;
+}
+
+.part-title {
+    margin: 0px;
+    font-size: 16px;
+    color: var(--major-color);
+}
+
+/* About me */
+#about {
+    color: white;
+    background-color: var(--major-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 6.5cm;
+    padding: 10px 0px;
+}
+
+#picture {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: solid white 5px;
+    margin: 5px 0px -5px;
+}
+
+#description {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#about-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+svg {
+    fill: white;
+    width: 20px;
+    margin-right: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#linkedinsvg {
+    width: 17px;
+}
+
+#githubsvg {
+    width: 17px;
+}
+
+/* Left Part */
+#left {
+    background-color: var(--second-color);
+}
+
+#skills {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.skills-content {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.skills-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-subtitle {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    align-self: flex-end;
+}
+
+/* Right Part */
+#introduction {
+    margin: 0px;
+    padding: 20px;
+    background-color: var(--second-color);
+    text-align: center;
+}
+
+#experiences {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experiences-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.experiences-content-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.experiences-content-top p {
+    margin: 0%;
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.experiences-content-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.experiences-content-place {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.experiences-content-date {
+    font-size: 12px;
+}
+
+.experiences-content-subtitle {
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+    font-size: 13px;
+    margin: 0%;
+}
+
+.experiences-content-text {
+    font-size: 13px;
+    margin: 0%;
+}
