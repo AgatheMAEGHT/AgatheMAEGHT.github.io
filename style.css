@@ -8,8 +8,6 @@ html {
     background-color: rgb(46, 46, 46);
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content:center;
 
     /* var */
     --major-color: #f44336;
@@ -17,7 +15,7 @@ html {
 }
 
 body {
-    margin: 0%;
+    margin: auto;
     background-color: white;
     width: 21cm;
     height: 29.7cm;
