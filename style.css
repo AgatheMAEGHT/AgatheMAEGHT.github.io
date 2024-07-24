@@ -27,7 +27,13 @@ body {
 .separator {
     border-top: 3px solid var(--major-color);
     width: 85%;
-    margin-left: 0px;
+    margin: 7px 0px;
+}
+
+.separator-big {
+    border-top: 3px solid var(--major-color);
+    width: 85%;
+    margin: 7px 0px -4px;
 }
 
 .part-title {
