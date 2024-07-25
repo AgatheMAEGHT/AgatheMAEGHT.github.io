@@ -10,8 +10,8 @@ html {
     padding: 0;
 
     /* var */
-    --major-color: #f44336;
-    --second-color: #fde3e1;
+    --major-color: #6C8954;
+    --second-color: #E6F7D7;
 }
 
 body {
@@ -25,13 +25,13 @@ body {
 
 /* Components */
 .separator {
-    border-top: 3px solid var(--major-color);
+    border: 1px solid var(--major-color);
     width: 85%;
     margin: 7px 0px;
 }
 
 .separator-big {
-    border-top: 3px solid var(--major-color);
+    border: 1px solid var(--major-color);
     width: 85%;
     margin: 7px 0px -4px;
 }
