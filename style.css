@@ -75,7 +75,7 @@ body {
 .info {
     display: flex;
     font-size: 13px;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
 }
 
 svg {
@@ -129,7 +129,7 @@ a {
 /* Right Part */
 #introduction {
     margin: 0px;
-    padding: 20px;
+    padding: 13px;
     background-color: var(--second-color);
     text-align: center;
 }
