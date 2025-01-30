@@ -103,15 +103,20 @@ a {
 }
 
 #skills {
-    padding: 30px 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
 .skills-content {
     margin: 0px;
     font-size: 14px;
+}
+
+.skills-content-small {
+    margin: 0px;
+    font-size: 12px;
 }
 
 .skills-sub {
@@ -120,6 +125,20 @@ a {
 }
 
 .skills-subtitle {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.list-col {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.language-subtitle {
     font-size: 12px;
     font-weight: bold;
     display: inline-block;
@@ -141,47 +160,51 @@ a {
     gap: 20px;
 }
 
-.experiences-content {
+.content {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
-.experiences-content-top {
+.content-top {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.experiences-content-top p {
+.content-top p {
     margin: 0%;
     display: inline-block;
     align-self: flex-end;
 }
 
-.experiences-content-title {
+.content-title {
     font-weight: bold;
     font-size: 14px;
 }
 
-.experiences-content-place {
+.content-place {
     font-style: italic;
     font-size: 12px;
 }
 
-.experiences-content-date {
+.content-date {
     font-size: 12px;
 }
 
-.experiences-content-subtitle {
+.content-subtitle {
     font-weight: 700;
     color: rgb(54, 54, 54);
     font-size: 13px;
     margin: 0%;
 }
 
-.experiences-content-text {
+.content-text {
     font-size: 13px;
     margin: 0%;
+}
+
+.bullet-list {
+    margin: 0px;
 }
