@@ -64,7 +64,8 @@ body {
 
 #description {
     text-align: center;
-    margin-top: 0px;
+    margin: 0px;
+    margin-bottom: 2px;
 }
 
 #about-infos {
@@ -75,7 +76,7 @@ body {
 .info {
     display: flex;
     font-size: 13px;
-    padding-bottom: 7px;
+    padding-bottom: 4px;
 }
 
 svg {
@@ -130,6 +131,10 @@ a {
     font-weight: bold;
     display: inline-block;
     align-self: flex-end;
+}
+
+.skills-subtitle-0 {
+    margin-top: 0px;
 }
 
 .list-col {
