@@ -114,6 +114,13 @@ a {
 .skills-content {
     margin: 0px;
     font-size: 14px;
+    color: black;
+}
+
+.skills-content-medium {
+    margin: 0px;
+    font-size: 13px;
+    color: black;
 }
 
 .skills-content-small {
